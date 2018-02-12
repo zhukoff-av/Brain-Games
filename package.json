@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/zhukoff-av/project-lvl1-s224/issues"
   },
-  "homepage": "https://github.com/zhukoff-av/project-lvl1-s224#readme"
+  "homepage": "https://github.com/zhukoff-av/project-lvl1-s224#readme",
+  "devDependencies": {
+    "babel-cli": "",
+    "babel-core": "",
+    "babel-preset-env": "",
+    "babel-preset-stage-0": ""
+  }
 }

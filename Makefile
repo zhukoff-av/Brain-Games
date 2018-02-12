@@ -1,0 +1,3 @@
+# Makefile
+install:
+				npm install
