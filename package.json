@@ -1,6 +1,6 @@
 {
   "name": "geh-sp-122",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -37,5 +37,8 @@
     "babel-preset-env": "",
     "babel-preset-stage-0": "",
     "geh-sp-122": ""
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.8"
   }
 }
