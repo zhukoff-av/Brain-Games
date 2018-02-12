@@ -1,12 +1,24 @@
 {
-  "name": "gehirn-spiele",
-  "version": "1.0.0",
-  "description": "Gehirnspiele",
-  "main": "index.js",
+  "name": "geh-sp-122",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "babel-node": "babel-node",
-    "build": "SET NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -23,12 +35,7 @@
     "babel-cli": "",
     "babel-core": "",
     "babel-preset-env": "",
-    "babel-preset-stage-0": ""
-  },
-  "bin": {
-    "brain-games": "dist/bin/brain-games.js"
-  },
-  "files": [
-    "dist"
-  ]
+    "babel-preset-stage-0": "",
+    "geh-sp-122": ""
+  }
 }

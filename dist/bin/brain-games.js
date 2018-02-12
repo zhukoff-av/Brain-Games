@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict';
+
+var makeHello = function makeHello() {
+  console.log('Welcome to the Brain Games!');
+};
+
+makeHello();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9iaW4vYnJhaW4tZ2FtZXMuanMiXSwibmFtZXMiOlsibWFrZUhlbGxvIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFFQSxJQUFNQSxZQUFZLFNBQVpBLFNBQVksR0FBTTtBQUN0QkMsVUFBUUMsR0FBUixDQUFZLDZCQUFaO0FBQ0QsQ0FGRDs7QUFJQUYiLCJmaWxlIjoiYnJhaW4tZ2FtZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuY29uc3QgbWFrZUhlbGxvID0gKCkgPT4ge1xuICBjb25zb2xlLmxvZygnV2VsY29tZSB0byB0aGUgQnJhaW4gR2FtZXMhJyk7XG59O1xuXG5tYWtlSGVsbG8oKTtcbiJdfQ==
