@@ -1,6 +1,6 @@
 {
   "name": "geh-sp-122",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -38,12 +38,13 @@
     "babel-preset-env": "",
     "babel-preset-stage-0": "",
     "eslint": "^4.17.0",
-    "geh-sp-122": "",
+    "geh-sp-122": "^1.0.3",
     "babel-eslint": "^8.2.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
   },
   "dependencies": {
+    "hexlet-pairs": "",
     "readline-sync": "^1.4.8"
   }
 }
