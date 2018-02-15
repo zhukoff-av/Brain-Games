@@ -1,9 +1,8 @@
 import { cons } from 'hexlet-pairs';
 import startGame from '..';
+import generateRandom from '../calculation';
 
 const rule = 'What is the result of the expression?';
-
-const generateRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const generateRandomOperator = () => {
     const possible = '+-*';

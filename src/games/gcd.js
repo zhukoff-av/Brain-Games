@@ -1,9 +1,8 @@
 import { cons } from 'hexlet-pairs';
 import startGame from '..';
+import generateRandom from '../calculation';
 
 const rule = 'Find the greatest common divisor of given numbers.';
-
-const generateRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const gcd = (firstValue, secondValue) => {
     if (secondValue === 0) {
