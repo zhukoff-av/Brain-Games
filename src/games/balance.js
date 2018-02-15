@@ -5,8 +5,8 @@ import generateRandom from '../calculation';
 const rule = 'Balance the given number.';
 
 export const balanceSort = (array) => {
-    const max = Math.max.apply(null, array);
     const min = Math.min.apply(null, array);
+    const max = Math.max.apply(null, array);
     const delta = Math.floor((max - min) / 2);
     if (delta > 0) {
         const minValue = array.lastIndexOf(min);
