@@ -5,7 +5,7 @@ const getAnswer = () => readlineSync.question('Your answer: ');
 
 export const startGame = (rule, giveQuestionAnswer) => {
     console.log('Welcome to the Brain Games!');
-    console.log('Answer "yes" if number even otherwise answer "no".');
+    console.log(rule);
     const name = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${name}!`);
 
