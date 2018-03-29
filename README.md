@@ -4,3 +4,12 @@
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
 
 [![NPM](https://nodei.co/npm/geh-sp-122.png?mini=true)](https://npmjs.org/package/geh-sp-122)
+
+Names of games:
+```
+brain-even
+brain-calc
+brain-gcd
+brain-balance
+brain-progression
+```
