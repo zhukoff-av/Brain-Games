@@ -13,3 +13,5 @@ brain-gcd
 brain-balance
 brain-progression
 ```
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zhukoff-av&layout=compact)](https://github.com/zhukoff-av/Brain-Games)
